@@ -1,0 +1,12 @@
+Buat aplikasi kosan untuk permasalahan:
+- Administrasi keuangan
+  a. Anak-anak bayar Kos
+     Semua pembayaran bisa melalui web
+  b. Anak-anak melakukan membayar makanan
+
+- Pemantauan anak kos lagi di dalem kos atau sedang di luar kos
+
+- Bisa cek kamar mana saja yang saat ini tersedia
+
+- Ada fitur login/logout untuk user dan admin
+
