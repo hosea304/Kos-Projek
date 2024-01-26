@@ -10,7 +10,7 @@
 
 <body>
     @yield('navbar')
-    <div class="container mx-auto">
+    <div class="container mx-auto mt-5">
         @yield('container')
     </div>
 </body>
