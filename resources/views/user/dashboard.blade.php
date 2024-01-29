@@ -109,7 +109,6 @@
 <h1 class="text-3xl mb-3 font-bold text-slate-800 text-center">
     Status Penghuni
 </h1>
-
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
     <div
         class="flex items-center justify-between flex-column flex-wrap md:flex-row space-y-4 md:space-y-0 pb-4 bg-white dark:bg-gray-900">
@@ -233,8 +232,6 @@
         </tbody>
     </table>
 </div>
-
-
 @endsection
 
 
@@ -259,6 +256,77 @@
         desc="Kamar dengan fasilitas kamar mandi luar, kipas angin, meja belajar, serta lemari pakaian."
         harga="Rp1.000.000" />
 </div>
+@endsection
+
+@section('riwayatTransaksi')
+<a href="#">
+    <div class="flex justify-between bg-slate-200 py-3">
+        <div class="ml-4 text-black font-bold">
+            <h2>Riwayat Transaksi</h2>
+        </div>
+        <div class="me-4">
+            >>
+        </div>
+    </div>
+</a>
+<table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+    <tbody>
+        <tr>
+            <th scope="row" class="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
+                <img class="w-10 h-10 rounded-full"
+                    src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png"
+                    alt="Jese image">
+                <div class="ps-3">
+                    <div class="text-base font-semibold">Bayar Kos</div>
+                    <div class="font-normal text-gray-500">25 Januari 2024, 22.00</div>
+                </div>
+            </th>
+
+            <th class="py-4">
+                <p>Rp 1.200.000</p>
+            </th>
+        </tr>
+
+        <tr>
+            <th scope="row" class="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
+                <img class="w-10 h-10 rounded-full"
+                    src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png"
+                    alt="Jese image">
+                <div class="ps-3">
+                    <div class="text-base font-semibold">Bayar Makan</div>
+                    <div class="font-normal text-gray-500">24 Januari 2024, 21.50</div>
+                </div>
+            </th>
+
+            <th class="py-4">
+                <p>Rp 10.000</p>
+            </th>
+        </tr>
+
+        <tr>
+            <th scope="row" class="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
+                <img class="w-10 h-10 rounded-full"
+                    src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png"
+                    alt="Jese image">
+                <div class="ps-3">
+                    <div class="text-base font-semibold">Bayar Kos</div>
+                    <div class="font-normal text-gray-500">22 Desember 2023, 21.50</div>
+                </div>
+            </th>
+
+            <th class="py-4">
+                <p>Rp 1.200.000</p>
+            </th>
+        </tr>
+    </tbody>
+</table>
+<a href="#">
+    <div class="bg-slate-50 py-3">
+        <div class="ml-4 text-black font-bold text-center">
+            <h2>Transaksi Lainnya ></h2>
+        </div>
+    </div>
+</a>
 @endsection
 
 

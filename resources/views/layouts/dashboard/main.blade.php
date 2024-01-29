@@ -15,8 +15,12 @@
             @yield('welcome')
         </div>
 
-        <div>
+        <div class="mb-10">
             @yield('statusKepergian')
+        </div>
+
+        <div class="mb-10">
+            @yield('riwayatTransaksi')
         </div>
 
         <div>
