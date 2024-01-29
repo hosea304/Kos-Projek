@@ -10,8 +10,18 @@
 
 <body>
     @yield('navbar')
-    <div class="container mx-auto mt-5">
-        @yield('container')
+    <div class="container mx-auto mt-24">
+        <div class=" pl-10 pt-7 bg-slate-600 h-40 w-vw my-10">
+            @yield('welcome')
+        </div>
+
+        <div>
+            @yield('statusKepergian')
+        </div>
+
+        <div>
+            @yield('tipeKamar')
+        </div>
     </div>
 </body>
 

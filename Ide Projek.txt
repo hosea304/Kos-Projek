@@ -10,3 +10,84 @@ Buat aplikasi kosan untuk permasalahan:
 
 - Ada fitur login/logout untuk user dan admin
 
+
+Requirement:
+
+Halaman User (Penghuni Kos):
+1. Dashboard Penghuni:
+	a. Status Kamar Pribadi (Ditempati, Kosong, Dalam Pemesanan)
+	b. Informasi Tagihan Bulanan dan Total Pembayaran
+	c. Riwayat Pembayaran
+	d. Reservasi dan Pemesanan:
+
+2. Formulir Pemesanan Kamar dengan Pilihan Fasilitas
+	a. Kalender Ketersediaan Kamar
+	b. Riwayat Reservasi Kamar
+
+3. Notifikasi Pribadi
+	a. Pemberitahuan Kehadiran Penghuni
+	b. Pemberitahuan Penting (Pemeliharaan, Perubahan Kebijakan)
+
+4. Profil dan Pengaturan:
+	a. Informasi Pribadi (Nama, Kontak, Alamat)
+	b. Foto Profil
+	c. Pengaturan Notifikasi dan Keamanan Akun
+
+5. Kamar dan Fasilitas:
+	a. Informasi Detail Kamar (Harga, Fasilitas, Deskripsi)
+	b. Galeri Foto dan Video Kamar
+	c. Status Ketersediaan Fasilitas (Jika Ada, seperti dapur bersama, laundry)
+
+6. Pemesanan Makanan:
+	a. Daftar Menu dan Harga
+	b. Formulir Pemesanan Makanan kepada Ibu Kos
+	c. Riwayat Pemesanan Makanan
+
+7. Pertanyaan Umum (FAQ):
+Jawaban atas pertanyaan umum terkait pemesanan, pembayaran, fasilitas, dan pemesanan makanan
+
+Halaman Admin (Pemilik Kos):
+1. Dashboard Admin:
+	a. Ringkasan Umum Kamar (Jumlah Kosong, Ditempati, Dalam Pemesanan)
+	b. Grafik Pemesanan dan Pendapatan Bulanan
+	c. Notifikasi Penting (Pengumuman, Pemberitahuan Kehadiran Penghuni)
+
+2. Manajemen Kamar:
+	a. Status Kamar (Ditempati, Kosong, Dalam Pemesanan)
+	b. Formulir Pemesanan Kamar dari Calon Penghuni
+	c. Notifikasi Ketersediaan Kamar dan Pemesanan
+
+3. Pendapatan dan Pembayaran:
+	a. Pendapatan Bulanan dan Grafik Pertumbuhan
+	b. Ringkasan Pembayaran (Tertunggak, Lunas)
+
+4. Analisis Pemesanan:
+	a. Grafik Pemesanan Real-Time dan Histori
+	b. Riwayat Reservasi Kamar
+
+5. Keamanan dan Akses:
+	a. Pemantauan Sistem Kunci Elektronik
+	b. Pemantauan Kamera Keamanan (Jika Ada)
+
+6. Statistik Pengunjung:
+	a. Grafik Kunjungan Situs Web
+	b. Asal Pengunjung dan Aktivitas
+
+7. Pengelolaan Konten (Buat kaya di Elearning):
+	a. Tambah/Edit Informasi Kamar (Deskripsi, Fasilitas, Harga)
+	b. Kelola Galeri Foto dan Video Kamar
+	c. Pemberitahuan dan Komunikasi dengan Penghuni
+
+8. Pemesanan Makanan:
+	a. Kelola Daftar Menu dan Harga
+	b. Pantau Pemesanan Makanan oleh Penghuni
+	c. Histori Pemesanan Makanan
+
+9. Laporan Keuangan:
+	a. Laporan Keuangan Bulanan dan Tahunan
+	b. Histori Pembayaran Penghuni
+
+10. Pengaturan Akun:
+	a. Pengaturan Keamanan dan Notifikasi Akun Admin
+	b. Kelola Akses Staf atau Subadmin (Jika Ada)
+

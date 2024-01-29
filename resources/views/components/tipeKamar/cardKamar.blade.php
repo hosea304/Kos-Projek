@@ -11,6 +11,7 @@
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-20 w-200 w-max-20 overflow-clip">
                 {{$desc}}
             </p>
+            <p class="mb-3">Tersedia 10 kamar</p>
         </div>
         <div class="">
             <h3 class="text-lg font-bold tracking-tight text-gray-900 dark:text-white -mt-2">{{$harga}}</h3>
