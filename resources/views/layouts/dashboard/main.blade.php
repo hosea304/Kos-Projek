@@ -23,8 +23,8 @@
             @yield('riwayatTransaksi')
         </div>
 
-        <div>
-            @yield('tipeKamar')
+        <div class="mb-10 bg-slate-400 w-min-vw min-h-40 pt-3 ps-5">
+            @yield('peraturan')
         </div>
     </div>
 </body>
